@@ -4,7 +4,7 @@ import { Linkedin, Github, MailIcon, ChevronUp, Copy, Check } from "lucide-react
 const EMAIL_ADDRESS = "kenhenderson12@hotmail.com";
 const EMAIL = `mailto:${EMAIL_ADDRESS}`;
 const LINKEDIN_URL = "https://linkedin.com/in/ken-henderson-7828161b5";
-const GITHUB_URL = "https://github.com/Ken-H12";
+const GITHUB_URL = "https://github.com/KenH-12";
 
 const CONTACT_GRADIENT =
   "linear-gradient(to bottom, rgba(0,5,20,0.95) 0%, rgba(15,23,42,0.85) 14%, rgba(15,23,42,0.4) 25%, transparent 100%)";

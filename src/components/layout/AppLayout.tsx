@@ -116,7 +116,7 @@ export function AppLayout({
             rel="noopener noreferrer"
           />
           <ContactLink
-            href="https://github.com/Ken-H12"
+            href="https://github.com/KenH-12"
             icon={Github}
             target="_blank"
             rel="noopener noreferrer"
