@@ -133,6 +133,14 @@ export const testimonialEntries = [
         "If you have the opportunity to bring Ken onto your team, seize it. Developers like Ken are exceedingly hard to find, and I would work with him again in a heartbeat."
       ]
     },
+    {
+      author: "Michael Davidoff",
+      role: "Chief Data Officer",
+      company: "EmitIQ",
+      testimonial: [
+        "Ken is a thoughtful, intelligent, and thorough senior software engineer and working with him during his 5 years at EmitIQ was a pleasure. He is an excellent teammate, effective communicator, and very talented programmer. He brings exceptional implementation skills, deep insight ability, and a pragmatic approach to all of his work. At EmitIQ he excelled in his role managing and leading our most complex software systems. Ken elevates any team and I highly recommend him."
+      ]
+    },
 ];
 
 export function MobileTestimonials({ isTransitioning = false, showTestimonials = false }: TestimonialsProps) {
@@ -185,7 +193,7 @@ export function Testimonials({ isTransitioning = false, showTestimonials = false
                 className={`rounded-none border border-primary/30 text-primary/60 hover:text-primary/80 transition-colors px-4 py-2 font-normal flex-1 data-[state=active]:bg-background data-[state=active]:border-primary data-[state=active]:text-primary data-[state=active]:border-b-2 ${!isRightmostTab ? 'border-r-2' : ''}`}
                 style={{ fontFamily: "'Share Tech Mono', monospace" }}
               >
-                {testimonial.role} at {testimonial.company}
+                {index + 1}
               </TabsTrigger>
             );
           })}
